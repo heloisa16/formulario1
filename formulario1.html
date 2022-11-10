@@ -122,155 +122,341 @@
         </div>
 
         <div class="row">
+            <div class="col-md-3">
+                <label for="validationCustomUsername" class="form-label">Endereço</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">Rua</span>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <div class="invalid-feedback">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label"></label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">N°</span>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <div class="invalid-feedback">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label"></label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">Bairro</span>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <div class="invalid-feedback">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-7">
+                <label for="validationCustomUsername" class="form-label"></label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">Cidade</span>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <div class="invalid-feedback">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label"></label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">Estado</span>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <div class="invalid-feedback">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5">
+
+                <label for="exampleFormControlInput1" class="form-label">Estado Civil</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="1">Solteiro (a)</option>
+                    <option value="2">Casado (a)</option>
+                    <option value="3">Divorciado (a)</option>
+                    <option value="3">Viúvo (a)</option>
+                    <option value="3">Separado judicialmente</option>
+                </select>
+            </div>
+
+
+            <label class="col-md-1 control-label" for="Filhos ">Filhos <h1></h1></label>
+            <div class="col-md-3">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <label class="radio-inline" for="radios-8"> <input type="radio" name="filhos" id="filhos"
+                                value="nao" onclick="desabilita('filhos qtd')" required>
+                            Não
+                        </label>
+                        <label class="radio-inline" for="radios-1">
+                            <input type="radio" name="filhos" id="filhos" value="sim" onclick="habilita('filhos_qtd')">
+                            Sim
+                        </label>
+                    </span>
+                    <input id="filhos qtd" name="filhos qtd" class="form-control" type="text" placeholder="Quantos?">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <label for="exampleFormControlInput1" class="form-label">Escolaridade</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="1">fundamental</option>
+                    <option value="2">médio(a)</option>
+                    <option value="3">superior (a)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <label for="exampleFormControlInput1" class="form-label">Profissão</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+        </div>
+
+        <label class="col-md-1 control-label" for="Filhos ">Encaminhamento <h1></h1></label>
         <div class="col-md-3">
-            <label for="validationCustomUsername" class="form-label">Endereço</label>
-            <div class="input-group has-validation">
-                <span class="input-group-text" id="inputGroupPrepend">Rua</span>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                <div class="invalid-feedback">
-
-                </div>
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <label class="radio-inline" for="radios-8"> <input type="radio" name="filhos" id="filhos"
+                            value="nao" onclick="desabilita('filhos qtd')" required>
+                        Não
+                    </label>
+                    <label class="radio-inline" for="radios-1">
+                        <input type="radio" name="filhos" id="filhos" value="sim" onclick="habilita('filhos_qtd')">
+                        Sim
+                    </label>
+                </span>
+                <input id="filhos qtd" name="filhos qtd" class="form-control" type="text" placeholder="instituição">
             </div>
         </div>
-
-
-        <div class="col-md-4">
-            <label for="validationCustomUsername" class="form-label"></label>
-            <div class="input-group has-validation">
-                <span class="input-group-text" id="inputGroupPrepend">N°</span>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                <div class="invalid-feedback">
-
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <label for="validationCustomUsername" class="form-label"></label>
-            <div class="input-group has-validation">
-                <span class="input-group-text" id="inputGroupPrepend">Bairro</span>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                <div class="invalid-feedback">
-
-                </div>
-            </div>
-        </div>
+    </div>
     </div>
 
     <div class="row">
-    <div class="col-md-7">
-        <label for="validationCustomUsername" class="form-label"></label>
-        <div class="input-group has-validation">
-            <span class="input-group-text" id="inputGroupPrepend">Cidade</span>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-            <div class="invalid-feedback">
-
+        <label class="col-md-1 control-label" for="Filhos">Aluno FAP-Betim<h1></h1></label>
+        <div class="col-md-3">
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <label class="radio-inline" for="radios-8"> <input type="radio" name="filhos" id="filhos"
+                            value="nao" onclick="desabilita('filhos qtd')" required>
+                        Não
+                    </label>
+                    <label class="radio-inline" for="radios-1">
+                        <input type="radio" name="filhos" id="filhos" value="sim" onclick="habilita('filhos_qtd')">
+                        Sim
+                    </label>
+                </span>
+                <input id="filhos qtd" name="filhos qtd" class="form-control" type="text" placeholder="Curso">
             </div>
         </div>
     </div>
+
+    <div class="col-md-6">
+        <label for="exampleFormControlInput1" class="form-label">Como ficou sabendo da Clínica</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+    </div>
+
+
+
+    <h1>Responsavel</h1>
+
 
     <div class="col-md-4">
-        <label for="validationCustomUsername" class="form-label"></label>
-        <div class="input-group has-validation">
-            <span class="input-group-text" id="inputGroupPrepend">Estado</span>
+        <label for="exampleFormControlInput1" class="form-label">Nome</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <label for="exampleFormControlInput1" class="form-label">Vincular com cliente</label>
             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-            <div class="invalid-feedback">
+        </div>
 
+        <div class="col-md-4">
+            <div class="form-group">
+                <label for="data-pagamento">Nascimento </label>
+                <div class="input-group date">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="DD/MM/AAA">
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-th"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md 3">
+            <p>Sexo</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Masculino
+
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Feminino
+                </label>
             </div>
         </div>
     </div>
-</div>
 
-<div class="row">
-<div class="col-md-5">
-    
-    <label for="exampleFormControlInput1" class="form-label">Estado Civil</label>
-<select class="form-select" aria-label="Default select example">
-<option value="1">Solteiro (a)</option>
-<option value="2">Casado (a)</option>
-<option value="3">Divorciado (a)</option>
-<option value="3">Viúvo (a)</option>
-<option value="3">Separado judicialmente</option>
-</select> 
-</div>
+    </div>
 
-   
-<label class="col-md-1 control-label" for="Filhos ">Filhos <h1></h1></label>
-<div class="col-md-3">
-<div class="input-group">
-<span class="input-group-addon">
-<label class="radio-inline" for="radios-8"> <input type="radio" name="filhos" id="filhos" value="nao" onclick="desabilita('filhos qtd')" required>
-Não
-</label>
-<label class="radio-inline" for="radios-1">
-<input type="radio" name="filhos" id="filhos" value="sim" onclick="habilita('filhos_qtd')">
-Sim
-</label>
-</span>
-<input id="filhos qtd" name="filhos qtd" class="form-control" type="text" placeholder="Quantos?">
-</div>
-</div>
-</div>
+    <div class="row">
+        <div class="col-md-5">
+            <label for="exampleFormControlInput1" class="form-label">Estado Civil</label>
+            <select class="form-select" aria-label="Default select example">
+                <option value="1">Solteiro (a)</option>
+                <option value="2">Casado (a)</option>
+                <option value="3">Divorciado (a)</option>
+                <option value="3">Viúvo (a)</option>
+                <option value="3">Separado judicialmente</option>
+            </select>
+        </div>
+
+        <label class="col-md-1 control-label" for="Filhos">Filhos <h11>*</h11></label>
+        <div class="col-md-3">
+            <div class="input-group">
+
+                <span class="input-group-addon">
+                    <label class="radio-inline" for="radios-0">
+                        <input type="radio" name="filhos" id="filhos" value="nao" onclick="desabilita('filhos qtd')"
+                            required> Não
+                    </label>
+                    <label class="radio-inline" for="radios-1">
+                        <input type="radio" name="filhos" id="filhos" value="sim" onclick="habilita('filhos_qtd')">
+                        Sim
+                    </label>
+                </span>
+                <input id="filhos qtd" name="filhos qtd" class="form-control" type="text" placeholder="Quantos?"
+                    pattern="[0-9]+$">
+
+            </div>
+        </div>
 
 
-<div class="row">
-<div class="col-md-6">
-<label for="exampleFormControlInput1" class="form-label">Escolaridade</label>
-<select class="form-select" aria-label="Default select example">
-<option value="1">fundamental</option>
-<option value="2">médio(a)</option>
-<option value="3">superior (a)</option>
-</select> 
-</div>
-</div>
 
-<div class="row">
-<div class="col-md-6">
-    <label for="exampleFormControlInput1" class="form-label">Profissão</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-</div>
-</div>
 
-<label class="col-md-1 control-label" for="Filhos ">Encaminhamento <h1></h1></label>
-<div class="col-md-3">
-<div class="input-group">
-<span class="input-group-addon">
-<label class="radio-inline" for="radios-8"> <input type="radio" name="filhos" id="filhos" value="nao" onclick="desabilita('filhos qtd')" required>
-Não
-</label>
-<label class="radio-inline" for="radios-1">
-<input type="radio" name="filhos" id="filhos" value="sim" onclick="habilita('filhos_qtd')">
-Sim
-</label>
-</span>
-<input id="filhos qtd" name="filhos qtd" class="form-control" type="text" placeholder="instituição">
-</div>
-</div>
-</div>
-</div>
+        <div class="row">
+            <div class="col-md-5">
+                <label for="exampleFormControlInput1" class="form-label">Escolaridade</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="1">fundamental</option>
+                    <option value="2">médio(a)</option>
+                    <option value="3">superior (a)</option>
+                </select>
+            </div>
 
-<label class="col-md-1 control-label" for="Filhos">Aluno FAP-Betim<h1></h1></label>
-<div class="col-md-3">
-<div class="input-group">
-<span class="input-group-addon">
-<label class="radio-inline" for="radios-8"> <input type="radio" name="filhos" id="filhos" value="nao" onclick="desabilita('filhos qtd')" required>
-Não
-</label>
-<label class="radio-inline" for="radios-1">
-<input type="radio" name="filhos" id="filhos" value="sim" onclick="habilita('filhos_qtd')">
-Sim
-</label>
-</span>
-<input id="filhos qtd" name="filhos qtd" class="form-control" type="text" placeholder="Curso">
-</div>
-</div>
-</div>
 
-<div class="col-md-6">
-    <label for="exampleFormControlInput1" class="form-label">Como ficou sabendo da Clínica</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-</div>
-</div>
+            <div class="col-md-5">
+                <label for="exampleFormControlInput1" class="form-label">Profissão</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Telefone</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">📞</span>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="XX XXXXX-XXXX">
+                    <div class="invalid-feedback">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Telefone</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">📞</span>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="XX XXXXX-XXXX">
+                    <div class="invalid-feedback">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="validationCustomUsername" class="form-label">Email</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">✉</span>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="email@email.com">
+                <div class="invalid-feedback">
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+                    <label class="btn btn-primary" for="btn-check-2">Cadastrar</label>
+                </div>
+
+                <div class="col-md-4">
+                    <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+                    <label class="btn btn-primary" for="btn-check-2">Cancelar</label>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -287,6 +473,9 @@ Sim
 
 
     </div>
+
+
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOq
 </body>
